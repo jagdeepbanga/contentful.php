@@ -6,7 +6,7 @@
     "require": {
         "php": "^7.2",
         "contentful/core": "dev-l8",
-        "contentful/rich-text": "^3.0",
+        "contentful/rich-text": "dev-l8",
         "psr/cache": "^1.0",
         "symfony/console": "~2.7|~3.0|~4.0|^5.0",
         "symfony/filesystem": "~2.7|~3.0|~4.0|~5.0",
@@ -39,6 +39,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/jagdeepbanga/contentful-core.php"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/jagdeepbanga/rich-text.php"
         }
     ],
     "bin": [
